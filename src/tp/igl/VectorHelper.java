@@ -3,7 +3,7 @@
 package tp.igl;
 
 /**
- *
+ * une classe qui fournit des operations elementaires sur les vecteurs
  * @author Touati_Zeroual
  */
 public class VectorHelper  {
