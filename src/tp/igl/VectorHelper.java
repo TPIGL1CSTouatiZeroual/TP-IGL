@@ -40,7 +40,16 @@ public class VectorHelper  {
              if (tab[i]>max)  max = tab[i];
          }
      }
-
+    
+     public void sommer (int [] tab2) throws VectorHelperException
+     {
+         if (tab2.length != tab.length ) throw new VectorHelperException ("Veuillez vérifier que les deux tableaux ont la meme longueur ");
+         else 
+         {
+             for (int i=0;i<tab.length;i++) { tab[i] += tab2[i]; }
+         }
+     }
+      
     public void formule () // rajoute 1 à tous les éléments 
     {
         for (int i=0;i<tab.length;i++)
