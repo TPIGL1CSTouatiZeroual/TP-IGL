@@ -49,6 +49,17 @@ public class VectorHelper  {
         }
     }
     
+     public void inverser()
+     {
+         int i =0,j=tab.length-1,k=0;
+         while (i<j)
+         {
+             k= tab[i];
+             tab[i]=tab[j];
+             tab[j]=k;
+             i++;j--;
+         }
+     }
      
     public void trier() // tri par bulles
     {
