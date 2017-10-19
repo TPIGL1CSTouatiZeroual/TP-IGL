@@ -41,7 +41,14 @@ public class VectorHelper  {
          }
      }
 
-
+    public void formule () // rajoute 1 à tous les éléments 
+    {
+        for (int i=0;i<tab.length;i++)
+        {
+            tab[i]++;
+        }
+    }
+    
      
     public void trier() // tri par bulles
     {
