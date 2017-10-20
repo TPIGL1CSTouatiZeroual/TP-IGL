@@ -56,7 +56,9 @@ public class VectorHelper  {
          max = tab[0];
          for (int i=0;i<tab.length;i++) {
              if (tab[i]<min)  min = tab[i];
-             if (tab[i]>max)  max = tab[i];
+             else{
+                 if (tab[i]>max)  max = tab[i];
+             }
          }
      }
     
