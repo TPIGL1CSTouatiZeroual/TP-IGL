@@ -8,7 +8,7 @@ package tp.igl;
  */
 public class VectorHelper  {
    
-    private int[] tab ;
+    protected int[] tab ;
     private int min;
     private int max;
 
