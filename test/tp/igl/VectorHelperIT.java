@@ -79,7 +79,7 @@ public class VectorHelperIT {
         assertEquals(min,instance.getMin());
 
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       // fail("The test case is a prototype.");
     }
 
     /**
@@ -92,7 +92,7 @@ public class VectorHelperIT {
         VectorHelper instance = new VectorHelper();
         instance.sommer(tab2);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       // fail("The test case is a prototype.");
     }
 
     /**
@@ -107,7 +107,7 @@ public class VectorHelperIT {
         int tabresult[] = {14,16,5,81,67,11,15};
         Assert.assertArrayEquals(tabresult,instance.tab);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+     //   fail("The test case is a prototype.");
     }
 
     /**
@@ -122,7 +122,7 @@ public class VectorHelperIT {
         int tabresult[] = {14,10,66,80,4,15,13};
         Assert.assertArrayEquals(instance.tab,tabresult);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       // fail("The test case is a prototype.");
     }
 
     /**
@@ -137,7 +137,7 @@ public class VectorHelperIT {
         int tabresult[] = {4,10,13,14,15,66,80};
         Assert.assertArrayEquals(instance.tab,tabresult);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       // fail("The test case is a prototype.");
     }
     
 }
