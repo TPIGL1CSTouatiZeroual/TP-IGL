@@ -19,6 +19,22 @@ public class VectorHelperIT {
     
     public VectorHelperIT() {
     }
+
+    @org.junit.BeforeClass
+    public static void setUpClass() throws Exception {
+    }
+
+    @org.junit.AfterClass
+    public static void tearDownClass() throws Exception {
+    }
+
+    @org.junit.Before
+    public void setUp() throws Exception {
+    }
+
+    @org.junit.After
+    public void tearDown() throws Exception {
+    }
    // Des methodes non utilisées pour ce cas  
    /* @BeforeClass
     public static void setUpClass() {
@@ -138,6 +154,34 @@ public class VectorHelperIT {
         Assert.assertArrayEquals(instance.tab,tabresult);
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getMin method, of class VectorHelper.
+     */
+    @org.junit.Test
+    public void testGetMin() {
+        System.out.println("getMin");
+        VectorHelper instance = new VectorHelper();
+        int expResult = 0;
+        int result = instance.getMin();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getMax method, of class VectorHelper.
+     */
+    @org.junit.Test
+    public void testGetMax() {
+        System.out.println("getMax");
+        VectorHelper instance = new VectorHelper();
+        int expResult = 0;
+        int result = instance.getMax();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
     }
     
 }

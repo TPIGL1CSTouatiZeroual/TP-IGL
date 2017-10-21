@@ -2,11 +2,15 @@
 
 package tp.igl;
 
+import javafx.application.Application;
+import static javafx.application.Application.launch;
+import javafx.stage.Stage;
+
 /**
  * une classe qui fournit des operations elementaires sur les vecteurs
  * @author Touati_Zeroual
  */
-public class VectorHelper  {
+public class VectorHelper  extends Application {
    
     protected int[] tab ;
     private int min;
@@ -120,7 +124,18 @@ public class VectorHelper  {
             }
         }  
     }
-
     
+   
+    public void start(Stage primaryStage) {
+        
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+
+     public static void main(String[] args) {
+        launch(args);
+    }
     
 }   
